@@ -1,0 +1,250 @@
+/* Set basic styles for the swiper parent */
+body {
+    background-color: #f0f0f0; /* Changed background color */
+}
+
+.swiper-parent {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+/* Set styles for the swiper container */
+.swiper-container {
+    width: 100%;
+    height: 100%;
+    margin-top: 0%;
+}
+
+/* Set styles for each swiper slide */
+.swiper-slide {
+    position: relative;
+    text-align: center;
+    font-size: 10px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Set styles for images within swiper slides */
+.swiper-slide img {
+    margin-top: 0%;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    opacity: 0.9;
+}
+
+/* Set styles for text overlay */
+.text-overlay {
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    transform: translate(-10%, -10%);
+    padding: 30px;
+    color: transparent; /* Make text transparent */
+    z-index: 1000;
+    background-clip: text; /* Clip background to text */
+    -webkit-background-clip: text; /* For Safari */
+    /* Apply gradient background to text */
+    background-image: linear-gradient(to bottom right, #5a3232, #f40a0a);
+}
+
+#testimonial {
+    border: 1px solid;
+    border-image: linear-gradient(to bottom right, #db3737, #dcc863) 1;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+/* Set styles for button overlay */
+.button-overlay {
+    position: absolute;
+    bottom: 100px;
+    left: 10%;
+    transform: translateX(-40%);
+    z-index: 1000;
+    box-shadow: 0px 0px 10px rgba(199, 61, 61, 0.3); /* Example box shadow */
+}
+
+/* Set styles for buttons within button overlay */
+.button-overlay button {
+    padding: 10px 30px;
+    background-color: #5e7389;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: large;
+    font-weight: 900;
+}
+
+/* Set styles for the navbar */
+.navbar {
+    top: fixed;
+  
+    z-index: 1000;
+    color: rgb(184, 28, 28);
+    background-color: rgba(255, 255, 255, 0.9); /* Added background color with opacity */
+}
+
+/* Set styles for navbar brand */
+.navbar-brand {
+    color: black;
+    font-size: xx-large;
+}
+
+/* Set styles for navbar links */
+.navbar-nav {
+    margin-left: auto;
+}
+
+.navbar-nav .nav-link {
+    color: black;
+    margin-right: 20px;
+}
+
+/* Set styles for the grid photo gallery */
+.gallery-image {
+    position: relative;
+    overflow: hidden;
+    display: grid;
+}
+
+/* Set styles for images within the grid photo gallery */
+.gallery-image img {
+    width: 40%;
+    height: auto;
+    transition: transform 0.5s ease; /* Add smooth transition */
+}
+
+/* Scale up images within the grid photo gallery on hover */
+.gallery-image:hover img {
+    transform: scale(1.5);
+    width: 20vw;
+    height: auto;
+}
+
+
+.center-image img {
+    width: 12px; /* Set the size of the central image */
+    height: auto;
+}
+
+/* Set styles for images within the testimonial slider */
+.carousel-item img {
+    height: auto;
+    max-height: 100vh; /* Adjust the max height as needed */
+}
+
+/* Allow carousel items to adjust height within the testimonial slider */
+#testimonialCarousel .carousel-item {
+    height: 90vh;
+}
+
+.testimonial-icon {
+    position: absolute;
+    top: 20px;
+    left: 10px;
+    z-index: 1;
+}
+.carousel-control-prev{
+    width: 100vw;
+    
+}
+
+body {
+     background-image: url('pexels-asadphoto-1024968.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    /* Adjust opacity */
+    background-color: rgba(240, 255, 255, 0.7);
+    backdrop-filter: blur(5px);
+
+}
+
+.testimonial-text {
+    /* Clip background to text */
+    -webkit-background-clip: text; /* For Safari */
+    background-clip: text;
+    /* Apply gradient background to text */
+    background-image: linear-gradient(to bottom right, rgb(232, 13, 13),rgb(95, 40, 40));
+    /* Set transparent color to avoid interference with background */
+    color: transparent;
+    font-size: xx-large;
+    z-index: 9999;
+}
+
+/* Quote Section */
+blockquote {
+    font-size: 24px;
+    font-style: italic;
+    color: #fcfcfc; /* Quote text color */
+    margin-bottom: 50px;
+    font-family: "Arial", sans-serif; /* Specify the font family */
+
+    text-decoration-color: #e80b0b;
+}
+
+blockquote footer {
+    font-size: 18px;
+    font-weight: bold;
+    color: #e5e5e5; /* Author text color */
+}
+
+.swiper-button-next:hover,
+.swiper-button-prev:hover {
+    background-color: rgba(0, 0, 0, );
+}
+
+.swiper-button-next::after,
+.swiper-button-prev::after {
+    content: '=>';
+}
+
+.swiper-button-prev::after {
+    content: '<=';
+    color:black;
+}
+.swiper{
+    position: relative;
+
+    background: #191919;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.swiper{
+    
+    background: linear-gradient(to bottom right, #1b2a40, #0453f3); /* Add background gradient */
+    /*  */
+}
+body {
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+    overflow-x: hidden; /* Prevent horizontal scrollbar */
+}
+/* Navbar styles */
+.navbar-fixed {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    color: rgb(184, 28, 28);
+    background-color: rgba(255, 255, 255, 0.9);
+  }
+  
+  /* Slider parent styles */
+  .slider-parent {
+    position: relative;
+  }
+  
+  /* Other styles */
+  /* Add your other styles here */
+  

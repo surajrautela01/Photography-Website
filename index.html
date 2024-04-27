@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hero Section</title>
+  <!-- CSS -->
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="swiper-parent">
+    <!-- Navbar -->
+       <nav class="navbar navbar-expand-lg navbar-antiquewhite bg-antiquewhite fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="#">DINESHGAHLOT.COM</a> <!-- Your website name here -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#testimonial">Testimonial</a> 
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About us</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    
+
+    
+    <!-- Swiper -->
+    <div class="swiper-container">
+      <div class="swiper-wrapper">
+        
+        <div class="swiper-slide">
+          <img src="pexels-emma-bauso-1183828-2253870.jpg" alt="Image 1">
+          <div class="text-overlay">
+            <h1>Lorem ipsum dolor sit amet <br>
+                consectetur adipisicing elit.</h1>
+          </div>
+          <div class="button-overlay">
+            <button>Click Me</button>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <img src="pexels-asadphoto-1024968.jpg" alt="Image 2">
+          <div class="text-overlay">
+            <h1>Lorem ipsum dolor sit amet<br>
+                 consectetur adipisicing elit.</h1>
+          </div>
+          <div class="button-overlay">
+            <button>Click Me</button>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <img src="pexels-nghia-trinh-333496-931796.jpg" alt="Image 3">
+          <div class="text-overlay">
+            <h1>Lorem ipsum dolor sit amet<br>
+                 consectetur adipisicing elit.</h1>
+          </div>
+          <div class="button-overlay">
+            <button>Click Me</button>
+          </div>
+        </div>
+      </div>
+      <!-- Add Pagination -->
+      <div class="swiper-pagination"></div>
+      <!-- Add Navigation -->
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
+    </div>
+  </div>
+
+  <!-- Grid Photo Gallery -->
+  <div class="container mt-5">
+    <div class="row">
+      <div class="col-md-6 mb-4">
+        <div class="gallery-image">
+          <img src="pexels-iriser-871854.jpg" class="img-fluid " alt="Gallery Image 1">
+        </div>
+      </div>
+      <div class="col-md-6 mb-4">
+        <div class="gallery-image">
+          <img src="pexels-jibarofoto-1560303.jpg" class="img-fluid" alt="Gallery Image 2">
+        </div>
+      </div>
+      <div class="col-md-6 mb-4">
+        <div class="gallery-image">
+          <img src="pexels-imagestudio-1488312.jpg" class="img-fluid" alt="Gallery Image 3">
+        </div>
+      </div>
+      <div class="col-md-6 mb-4">
+        <div class="gallery-image">
+          <img src="pexels-nghia-trinh-333496-931796.jpg" class="img-fluid" alt="Gallery Image 4">
+        </div>
+      </div>
+      <div class="col-md-10 mb-4 text-center">
+        <div class="gallery-image d-inline-block">
+          <img src="pexels-emma-bauso-1183828-2253870.jpg" class="img-fluid center-img" alt="Gallery Image 5" >
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <!-- Testimonial Section -->
+  <div id="testimonial" class="container mt-5">
+    <h2 class="text-center mb-4">Testimonials</h2>
+    <div id="testimonialCarousel" class="carousel slide" data-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="row">
+            <div class="col-lg-6">
+              <div class="testimonial-item">
+                <p class="testimonial-text">Lorem ipsum dolor sit amet,<br>
+                     consectetur adipisicing elit. Quisquam, earum?</p>
+                <h4 class="testimonial-author">John Doe</h4>
+                <h4 class="testimonial-author">Testimonial1</h4>
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <img src="pexels-jibarofoto-1560303.jpg" class="d-block w-100 h-10" alt="Testimonial Image 2">
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="row">
+            <div class="col-lg-6">
+              <div class="testimonial-item">
+                <p class="testimonial-text">Lorem ipsum dolor sit amet,<br>
+                     consectetur adipisicing elit. Quisquam, earum?</p>
+                     consectetur adipisicing elit. Quisquam, earum?</p>
+                     consectetur adipisicing elit. Quisquam, earum?</p>
+                     consectetur adipisicing elit. Quisquam, earum?</p>
+                     consectetur adipisicing elit. Quisquam, earum?</p>
+                <h4 class="testimonial-author">Jane Doe</h4>
+                <h4 class="testimonial-author">Testimonial 2</h4>
+              </div>
+              
+            </div>
+            <div class="col-lg-6">
+              <img src="pexels-misha-earle-366060-1777843.jpg" class="d-block w-100 h-10" alt="Testimonial Image 2">
+            </div>
+          </div>
+        </div>
+        <!-- Add more carousel items as needed --><div class="carousel-item">
+  <div class="row">
+    <div class="col-lg-6">
+      <div class="testimonial-item">
+        <p class="testimonial-text">Lorem ipsum dolor sit amet,<br> consectetur adipisicing elit. Quisquam, earum?</p>
+        <h4 class="testimonial-author">John Doe</h4>
+        <h4 class="testimonial-author">Testimonial3</h4>
+      </div>
+    </div>
+    <div class="col-lg-6">
+      <img src="pexels-jonathanborba-2917380.jpg" class="d-block w-100 h-10" alt="Testimonial Image 3">
+    </div>
+  </div>
+</div>
+<div class="carousel-item">
+  <div class="row">
+    <div class="col-lg-6">
+      <div class="testimonial-item">
+        <p class="testimonial-text">Lorem ipsum dolor sit amet,<br> consectetur adipisicing elit. Quisquam, earum?</p>
+        <h4 class="testimonial-author">Jane Doe</h4>
+        <h4 class="testimonial-author">Testimonial 4</h4>
+      </div>
+    </div>
+    <div class="col-lg-6">
+      <img src="pexels-iriser-871854.jpg" class="d-block w-100 h-10" alt="Testimonial Image 4">
+    </div>
+  </div>
+</div>
+
+      </div>
+      
+      <a class="carousel-control-prev" href="#testimonialCarousel" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">P</span>
+      </a>
+      <a class="carousel-control-next" href="#testimonialCarousel" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+  </div>
+  <!-- Quote Section -->
+<!-- Quote Section -->
+<div class="container mt-5">
+  <div class="row">
+    <div class="col-md-8 offset-md-2 text-center">
+      <blockquote class="blockquote">
+        <p class="quote">"Taking pictures is savoring life intensely, every hundredth of a second.
+          “Photography is a way of feeling, of touching, of loving. What you have caught on film is captured forever… It remembers little things, long after you have forgotten everything."<br>
+          “Since we live in a world of appearances, people are judged by what they seem to be. If the mind can't read the predictable features, it reacts with alarm or aversion. Faces which don’t fit in the picture are socially banned. An ugly countenance, a hideous outlook can be considered as a crime and criminals must be inexorably discarded from society. ( "Ugly mug offense" )”
+          ― Erik Pevernagie</p>
+        <footer class="blockquote-footer">Steve Jobs</footer>
+      </blockquote>
+    </div>
+  </div>
+</div>
+<div class="swiper-parent" style="display: inline-flex;">
+  <!-- Swiper -->
+  <div class="swiper-container suraj">
+    <div class="swiper-wrapper">
+      <!-- Add your image slides here -->
+      <div class="swiper-slide swiper">
+        <img src="pexels-jonathanborba-2917380.jpg" class="d-block w-50" style="height: 100vh;  object-position: top;" alt="Image 1">
+      </div>
+      <div class="swiper-slide swiper">
+        <img src="pexels-yuksel-kocaman-776590-1640057.jpg"class="d-block w-50  style= "height : 0vh;" alt="Image 2">
+      </div>
+      <div class="swiper-slide swiper">
+        <img src="pexels-nghia-trinh-333496-931796.jpg" class="d-block w-50  style= "height : 0vh;"alt="Image 3">
+      </div>
+      <div class="swiper-slide swiper">
+        <img src="pexels-emma-bauso-1183828-2253870.jpg" class="d-block w-50" style="height: 100vh;  object-position: top;" alt="Image 1">
+      </div>
+    </div>
+    <!-- Add Pagination -->
+    <div class="swiper-pagination"></div>
+    <!-- Add Navigation -->
+    <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div>
+  </div>
+</div>
+
+<!-- Card Section -->
+<div class="container mt-5">
+  <div class="row">
+      <div class="col-md-6 mb-4">
+          <div class="card">
+              <div class="row no-gutters">
+                  <div class="col-md-4">
+                      <img src="pexels-jonathanborba-2917380.jpg" class="card-img" alt="Image">
+                  </div>
+                  <div class="col-md-8">
+                      <div class="card-body">
+                          <h5 class="card-title">Romantic Memories</h5>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <a href="#" class="btn btn-primary">Go somewhere</a>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <div class="col-md-6 mb-4">
+          <div class="card">
+              <div class="row no-gutters">
+                  <div class="col-md-4">
+                      <img src="pexels-yuksel-kocaman-776590-1640057.jpg" class="card-img" alt="Image">
+                  </div>
+                  <div class="col-md-8">
+                      <div class="card-body">
+                          <h5 class="card-title">Memories of love</h5>
+                          <p class="card-text">Love seems the swiftest but it is the slowest of all growths. No man or woman really knows what perfect love is until they have been married a quarter of a century." <b>— Mark Twain</b>
+                          </p>
+                          <a href="#" class="btn btn-primary">Go somewhere</a>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+</div>
+
+
+
+
+
+
+  <!-- JavaScript -->
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
